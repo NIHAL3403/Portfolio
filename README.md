@@ -21,9 +21,9 @@ Animate.css: Library for CSS-based animations.
 
 **Clone the repository:**
 
-'''bash
+```bash
 git clone https://github.com/your-username/your-repository.git
-'''
+```
 Open index.html in your web browser to view the website locally.
 
 ## Usage
