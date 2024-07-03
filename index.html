@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#project1">Project 1</a></li>
+                <li><a href="#project2">Project 2</a></li>
+                <li><a href="#project3">Project 3</a></li>
+                <li><a href="#project4">Project 4</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="parallax" data-parallax="scroll" data-image-src="images/pic.jpg">
+        <div class="content top-fixed">
+            <h1 class="animated-title">Welcome to My Portfolio</h1>
+            <p class="animated-desc">Explore my projects and skills</p>
+        </div>
+    </section>
+
+    <section id="about" class="scroll-trigger">
+        <div class="content">
+            <h2 class="animated-title">About Me</h2>
+            <p class="animated-desc">Hello myself POORNA CHANDRA TEJASHWI BH,
+               currently pursuing a B.Tech in Computer Science and Systems Engineering from REVA University in Bengaluru. 
+               I have a keen interest in technology and have worked on several projects involving motion detection, chatbot creation, and facial recognition.
+               I'm passionate about leveraging cutting-edge technologies to design and develop robust software solutions,  I thrive in dynamic environments where innovation and problem-solving are paramount.
+            </p>
+        </div>
+    </section>
+
+    <section id="project1" class="parallax scroll-trigger" data-parallax="scroll" data-image-src="https://static.vecteezy.com/system/resources/previews/014/000/940/non_2x/smart-home-concept-with-automation-control-network-technology-innovation-of-home-security-systems-iot-protection-software-design-or-cybersecurity-of-home-devices-free-photo.jpg">
+        <div class="content">
+            <h2 class="animated-title">Project 1: Motion Detection and Remote Monitoring System</h2>
+            <p class="animated-desc">Issuing Organization: Reva University <br>
+                Application number: 202441011575 (Submitted Patent) <br>
+
+                <h3>Components:</h3>
+                ESP32-CAM Microcontroller: A low-cost development board with an integrated camera, ideal for capturing images and videos. <br>
+                PIR Sensor: A Passive Infrared sensor that detects motion by measuring infrared radiation changes in its environment.<br>
+                <h3>Functionality:</h3>
+                <strong>Motion Detection:</strong> The PIR sensor detects motion and triggers the ESP32-CAM.<br>
+                <strong>Image/Video Capture:</strong> The ESP32-CAM lights up and captures images or records videos when motion is detected.<br>
+                <strong>Notification System:</strong> Sends a notice to the owner when motion is detected.<br>
+                <strong>Web-Based Interface:</strong> Owners can monitor their premises remotely through a web interface, provided they have internet access.<br>
+                <strong>Applications:</strong> Home security systems, remote surveillance, wildlife monitoring, and more.<br>
+                <strong>Description:</strong> The system incorporates an ESP32-CAM microcontroller together with a PIR sensor. The ESP32-CAM lights when motion is detected and takes pictures or records videos with a notice sent to the owner.
+                The web-based interface allows owners to monitor their premises from anywhere with internet access.</p>
+        </div>
+    </section>
+
+    <section id="project2" class="parallax scroll-trigger" data-parallax="scroll" data-image-src="https://acropolium.com/img/articles/enterprise-chatbot-development-guide/img01.jpg">
+        <div class="content">
+            <h2 class="animated-title">Project 2: Chatbot Creation</h2>
+            <p class="animated-desc"> 
+                <h3>Description:</h3>
+                Implementing a ChatBot using natural language processing techniques. The ChatBot can handle various queries, ranging from simple greetings to providing information on topics like programming, technology, and finance. It utilizes regular expressions, Alpaca API for stock market data, and long responses module for more elaborate responses. The main loop continuously prompts the user for input and prints the bot’s responses.
+                <h3>Functionality:</h3>
+                <strong>Handling Queries:</strong> The ChatBot can respond to various queries, from simple greetings to detailed information requests about programming, technology, and finance.<br>
+                <strong>Regular Expressions:</strong> Utilized to parse and understand user inputs.<br>
+                <strong>API:</strong> Integrated to fetch real-time stock market data for financial queries.<br>
+                <strong>Long Responses Module:</strong> Provides detailed responses for complex queries.<br>
+                <strong>User Interaction:</strong> The main loop of the ChatBot continuously prompts the user for input and provides appropriate responses.<br>
+                <strong>Applications:</strong> Customer service automation, virtual assistants, information retrieval systems, and more.
+            </p>
+        </div>
+    </section>
+
+    <section id="project3" class="parallax scroll-trigger" data-parallax="scroll" data-image-src="https://www.softwebsolutions.com/wp-content/uploads/2022/05/Facial-Recognition.jpg">
+        <div class="content">
+            <h2 class="animated-title">Project 3: Face Detection and Emotional Analysis</h2>
+            <p class="animated-desc">
+                <h3>Description: </h3>
+                Facial recognition and analysis is a powerful vision tool that can read facial expressions in photos and videos. 
+                It takes place in two stages. It uses advanced algorithms to find the right face by first identifying facial features such as eyes and nose. 
+                It then analyzes the position of these features, especially the eyebrows, mouth and eyes, to interpret the emotions expressed.<br>
+                <strong>Recognition:</strong> <br>
+                Stage 1: Identifies key facial features such as eyes, nose, mouth, etc.<br>
+                Stage 2: Analyzes the position and movement of these features to interpret the emotions expressed.<br>
+                <strong>Algorithms and Techniques:</strong>  <br>
+                Feature Detection: Uses advanced algorithms to accurately identify facial features.<br>
+                Emotion Analysis: Analyzes the position of features like eyebrows, mouth, and eyes to determine the emotional state (e.g., happy, sad, angry).<br>
+                Applications: Security and surveillance, human-computer interaction, market research (understanding customer emotions), and healthcare (detecting emotional distress).
+            </p>
+        </div>
+    </section>
+
+    <section id="project4" class="parallax scroll-trigger" data-parallax="scroll" data-image-src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ff0df254959063.59708b9305443.jpg">
+        <div class="content">
+            <h2 class="animated-title">Project 4: Creation of News Application</h2>
+            <p class="animated-desc">
+                <h3>Description: </h3>
+                The News Application is a modern, responsive web application that fetches and displays the latest news headlines from various sources. 
+                This project is built using React for the frontend and Node.js with Express for the backend.
+                It utilizes the News API to retrieve real-time news updates and presents them in a user-friendly interface.<br>
+                
+                <h3>Key Features:</h3> <br>
+                <strong>Fetching and Displaying News Headlines:</strong>  The application fetches the latest news headlines from the News API and displays them in a clean and organized manner.
+                <strong>Responsive Design:</strong>  The application is designed to be responsive and mobile-friendly, ensuring a seamless user experience across different devices and screen sizes.
+                <strong>User-friendly Error Handling:</strong> The application provides clear and informative error messages to the user in case of any issues, such as network errors or API failures.
+                <strong>Backend Caching:</strong>  To reduce the number of API calls and improve performance, the application implements caching on the backend. This allows for faster response times and reduces the load on the News API.
+            </p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="content">
+            <h2 class="animated-title">Contact</h2>
+            <p class="animated-desc">Get in touch with me through email or social media.<br><br>
+                <a href="#email"><img src="images/email.png" alt="Gmail Logo" width="30" height="30"></a><br>
+                <a id="email" href="mailto:nihalhanumanthaiah@gmail.com">nihalhanumanthaiah@gmail.com</a><br><br>
+                <a href="#linkedin"><img src="images/linkedin.png" alt="LinkedIn Logo" width="60" height="30"></a><br>
+                <a id="linkedin" href="https://www.linkedin.com/in/poorna-chandra-tejashwi-b-h-b538851ab/">POORNA CHANDRA TEJASHWI B H</a><br><br>
+                <a href="#instagram"><img src="images/insta.jpg.avif" alt="Instagram Logo" width="30" height="30"></a><br>
+                <a id="instagram" href="https://www.instagram.com/p.c.t.n">p.c.t.n</a>
+            </p>
+        </div>
+    </section><br><br>
+
+    <footer>
+        <p>&copy; 2024 POORNA CHANDRA TEJASHWI BH. All rights reserved.</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax.js/1.5.0/parallax.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
